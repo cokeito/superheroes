@@ -3,8 +3,18 @@
 	text-align: center;
 }
 
-.vcenter {
+.txt-batman {
 	color:#000;
+	text-shadow: 1px 1px 1px rgba(247, 224, 76, 1);
+}
+
+.txt-superman {
+	color:#fff;
+	text-shadow: 1px 1px 1px rgba(138, 0, 0, 1);
+}
+
+.vcenter {
+	
 	font-weight: bold;
 	position: absolute;
   	top: 50%;
