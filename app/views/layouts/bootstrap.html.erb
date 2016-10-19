@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Experiment page</title>
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link rel="stylesheet" media="all" href="<%= asset_path 'bootstrap.css'%>">
+
+
+  </head>
+  
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          
+          <h1><code> yay! im bootstrap</code></h1>      
+
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+    
+    
+  </body>
+
+
+  <script src="<%= asset_path 'bootstrap.js'%>"> </script>
+
+</html>
