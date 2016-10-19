@@ -1,27 +1,9 @@
-# README
+_________         __   .__  __          
+\_   ___ \  ____ |  | _|__|/  |_  ____  
+/    \  \/ /  _ \|  |/ /  \   __\/  _ \ 
+\     \___(  <_> )    <|  ||  | (  <_> )
+ \______  /\____/|__|_ \__||__|  \____/ 
+        \/            \/                
 
 https://pruebacokito.herokuapp.com/
 
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
