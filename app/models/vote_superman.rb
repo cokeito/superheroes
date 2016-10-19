@@ -1,0 +1,2 @@
+class VoteSuperman < ApplicationRecord
+end

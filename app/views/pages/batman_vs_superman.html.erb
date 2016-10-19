@@ -2,9 +2,61 @@
 	<div class="row">
 		<div class="col-md-6 col-xs-6 col-sm-6 side-batman">
 			<%= link_to 'Página de Batman', pages_batman_path, :class=>'btn btn-info'  %>"
+
+			<div class="row txt-white">
+				<div class="col-md-offset-3 col-md-6">
+				
+
+				<form action="<%= pages_vote_batman_path %>" method="get" name="votebatman">
+
+					<label for="name">Nombre</label>
+					<input type="text" name="name" id="name" class="form-control">
+					
+					<label for="eame">Correo</label>
+					<input type="text" name="email" id="email" class="form-control">
+					
+					<input type="submit" value="Votar por Batman" class="btn btn-info mg-t-20">
+				</form>
+
+	
+				<p class="mg-t-20">
+					<h4>Batman lleva <span class="badge badge-info"><%= @votes_batman %></span> votos </h4>
+				</p>
+
+				</div>
+
+
+			</div>
+
+
 		</div>
 		<div class="col-md-6 col-xs-6 col-sm-6 side-superman">
 			<%= link_to 'Página de Superman', pages_superman_path, :class=>'btn btn-danger'  %>"
+
+			<div class="row txt-white">
+				<div class="col-md-offset-3 col-md-6">
+				
+
+				<form action="<%= pages_vote_superman_path %>" method="get" name="votesuperman">
+
+					<label for="name">Nombre</label>
+					<input type="text" name="name" id="name" class="form-control">
+					
+					<label for="eame">Correo</label>
+					<input type="text" name="email" id="email" class="form-control">
+					
+					<input type="submit" value="Votar por Superman" class="btn btn-danger mg-t-20">
+				</form>
+
+				<p class="mg-t-20">
+					<h4>Superman lleva <span class="badge badge-info"><%= @votes_superman %></span> votos</h4> 
+				</p>
+
+
+				</div>
+			</div>
+
 		</div>
 	</div>
 </div>
+
